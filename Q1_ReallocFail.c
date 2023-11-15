@@ -15,5 +15,7 @@ int main() {
     for (i = 0; i < 4; i++)
         printf("%d ", *(ptr_new + i));
     printf("\n");
+
+    free(ptr_new);
     return 0;
 }
